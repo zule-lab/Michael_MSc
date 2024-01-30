@@ -3,6 +3,7 @@
 A thesis in the Department of Biology, Concordia University, Montreal, Quebec, Canada
 
 By Michael A. Paulauskas
+[![DOI](https://zenodo.org/badge/750497015.svg)](https://zenodo.org/doi/10.5281/zenodo.10594237)
 
 --------------------------------------------------------------------------------------------------
 
