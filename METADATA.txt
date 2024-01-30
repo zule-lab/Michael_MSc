@@ -1,0 +1,76 @@
+This file describes the variables in each of the datasets that accompany the thesis:
+"Assessing Land-use Legacy Effects on Soil Physico-Chemical Properties and Earthworm Biodiversity in Urban Parks"
+
+Code can be found:
+In folder (**INSERT**)
+On GitHub (**INSERT**)
+
+DATASETS
+dataset: bulk_data.csv
+order: Order of the observations, numerical
+site_id: Site idenfitication, character
+plot_id: Plot identification, character
+complete_id: Complete identification of sites and plots together, character
+legacy: Historical land-use classification, caterogical (three levels)
+age: Time-since-establishment of sites, numerical (in years)
+bulk_core: Bulk density calculated using core approach, numerical (in g/cm3)
+bulk_fine: Bulk density calculated using fine approach, numerical (in g/cm3)
+bulk_hyb: Bulk density calculated used hybrid approach, numerical (in g/cm3)
+
+dataset: metals_glmm
+order: Order of the observations, numerical
+site_id: Site idenfitication, character
+plot_id: Plot identification, character
+complete_id: Complete identification of sites and plots together, character
+legacy: Historical land-use classification, caterogical (three levels)
+As_conc: Concentration of arsenic, numerical (in ppm = mg/kg)
+Cr_conc: Concentration of chromium, numerical (in ppm = mg/kg)
+Cu_conc: Concentration of copper, numerical (in ppm = mg/kg)
+Ni_conc: Concentration of nickle, numerical (in ppm = mg/kg)
+Pb_conc: Concentration of lead, numerical (in ppm = mg/kg)
+Zn_conc: Concentration of zinc, numerical (in ppm = mg/kg)
+
+dataset: nutrients_data
+order: Order of the observations, numerical
+site_id: Site idenfitication, character
+plot_id: Plot identification, character
+complete_id: Complete identification of sites and plots together, character
+legacy: Historical land-use classification, caterogical (three levels)
+age: Time-since-establishment of sites, numerical (in years)
+bulk_hyb: Bulk density calculated used hybrid approach, numerical (in g/cm3)
+carb: Total carbon, numerical (in %)
+nitro: Total nitrogen, numerical (in %)
+C_den: Carbon density, numerical (in kg/m2)
+N_den: Nitrogen density, numerical (in kg/m2)
+
+dataset: worm_env_variables
+legacy: Historical land-use classification, caterogical (three levels)
+soil_ph: Average soil pH in sampling plot, numerical
+soil_temp: Average soil temperature in sampling plot, numerical (in degrees Celsius)
+soil_moist: Average soil moisture in sampling plot , numerical (in %)
+
+dataset: worm_glmm
+order: Order of the observations, numerical
+site_id: Site idenfitication, character
+plot_id: Plot identification, character
+complete_id: Complete identification of sites and plots together, character
+legacy: Historical land-use classification, caterogical (three levels)
+worm_abund: Total abundance of earthworms in sampling plot, numerical (in # individuals)
+worm_wei: Total freshweight of earthworms in sampling plot, numerical (in g)
+soil_moist: Average soil moisture in sampling plot , numerical (in %)
+soil_ph: Average soil pH in sampling plot, numerical
+soil_temp: Average soil temperature in sampling plot, numerical (in degrees Celsius)
+soil_bulk: Bulk density calculated used hybrid approach, numerical (in g/cm3)
+Cu_conc: Concentration of copper, numerical (in ppm = mg/kg)
+Zn_conc: Concentration of zinc, numerical (in ppm = mg/kg)
+mean_palat: Average litter palatability of tree species present in sampling plot, numerical
+carb: Total carbon, numerical (in %)
+nitro: Total nitrogen, numerical (in %)
+biomass: Earthworm fresh biomass, numerical (in kg/m2)
+
+dataset: worm_species_data
+complete_id: Complete identification of sites and plots together, character
+legacy: Historical land-use classification, caterogical (three levels)
+species: Earthworm taxonomic species, character
+sp_code: Species code using first two letters of Genus and Species, character
+eco-group: Earthworm ecological group, character 
